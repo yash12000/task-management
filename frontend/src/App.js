@@ -1,8 +1,8 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { AuthProvider } from "./contexts/AuthContext";
-import TaskList from "./components/TaskList";
-import Login from "./components/Login";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { AuthProvider } from './contexts/AuthContext';
+import Login from './pages/Login';
+import TaskList from './pages/TaskList';
 
 function App() {
   return (
